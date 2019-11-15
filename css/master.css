@@ -1,0 +1,114 @@
+body {
+  margin : 0;
+}
+
+header {
+  min-height: 100vh;
+  padding: 1em;
+  background-color: #000000;
+  color: white;
+/* display en flexbox pour centrer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 100vh;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  min-height: 40vh;
+  background: #FAF0E6;
+
+  overflow: visible;
+  padding: 10px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 6px
+  border: solid
+}
+
+
+#fable01 .text-content {
+  background: #FAF0E6;
+  padding: 42px;
+  margin: 20px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable01 figure {
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+border-top : 1px solid #000;
+width : 500px;
+
+}
+
+#fable01 figure img {
+  width : 100%;
+  border : 6px solid ##FAF0E6;
+}
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  align-items: left;
+  min-height: 60vh;
+  background: #6b7b00 url('images/brother.jpg') top center no-repeat;
+  align-items: left;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable02 .text-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 42px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+
+  max-width: 620px;
+}
+
+/* Styles utilisés dans fable03 */
+
+#fable03 {
+  overflow: hidden;
+  background: #DEB887	;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+#fable03 .main-content {
+    max-width: 600px;
+    padding-top: 100px;
+
+
+}
+
+#fable03 p {
+  background: #DEB887	;
+   background-image: linear-gradient(#FFFAF0	, #DEB887);
+  color: #000	;
+  padding: 7vw;
+  border-radius: 12px;
+}

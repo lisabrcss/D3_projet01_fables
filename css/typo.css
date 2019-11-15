@@ -1,0 +1,105 @@
+/* Polices utilisés dans le header */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+/* Polices utilisés dans fable01 */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:900&display=swap');
+/* Polices utilisés dans fable02 */
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+/* Polices utilisés dans fable03 */
+@import url('https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao|McLaren&display=swap');
+
+
+header {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1em
+}
+
+header h1 {
+  font-size: 4.25em;
+  text-align: center;
+}
+
+header p {
+  font-size: 2.25em;
+}
+
+/* Styles partagés par tous les éléments ayant la même class */
+
+.fable-moral {
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  font-family: 'Lato', sans-serif;
+}
+
+#fable01 h2 {
+  font-size: 3.052em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+}
+
+#fable01 p {
+  margin-bottom: 1.25em;
+  text-align: center;
+}
+
+#fable01 .fable-moral {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  font-family: 'McLaren', cursive;
+
+}
+
+#fable02 h2 {
+  font-family: 'McLaren', cursive;
+  font-size: 3em;
+  position: left
+}
+
+#fable02 {
+
+}
+
+/* Styles utilisés dans fable03 */
+
+#fable03 {
+  font-family: 'Lato', sans-serif;
+}
+
+#fable03 h2 {
+    font-family: 'Bree Serif', serif;
+  margin: 0;
+  font-size: 4em;
+  line-height: 0.75;
+  text-align: center;
+}
+
+
+
+
+footer {
+  color: #fff;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  background: repeating-linear-gradient(
+    -55deg,
+    #2b2d42,
+    #2b2d42 10px,
+    #222 10px,
+    #222 20px
+  );
+}
+
+footer a {
+  color : #fff;
+}
